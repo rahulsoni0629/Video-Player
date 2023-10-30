@@ -1,0 +1,14 @@
+#videoPlayer {
+    width: 100%;
+  }
+
+#dropArea {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+#fileInput {
+    display: none;
+    }

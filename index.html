@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop Video Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dropArea" ondrop="handleDrop(event)" ondragover="allowDrop(event)" onclick="openFileInput()">
+    <p>Drop your video here or click to browse</p>
+    <input type="file" id="fileInput" accept="video/*" onchange="handleFileInput(this)">
+    </div>
+
+    <video id="videoPlayer" controls>Your browser does not support the video tag.</video>
+    <script src="app.js"></script>
+</body>
+</html>
